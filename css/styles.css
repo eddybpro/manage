@@ -52,8 +52,12 @@ nav{
     cursor: pointer;
 }
 
+.list>a{
+   color:var(--darck-blue);
+}
+
 .list>a:hover{
-    color: #b5b5b5;
+    color: var(--gray-color);
 }
 
 .humburger, .close{
